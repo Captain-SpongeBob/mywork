@@ -1,0 +1,118 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+	margin:0px;
+	padding:0px;
+  height: 100%;
+
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+.wel{
+	font-size: 20px;
+}
+.wel a{
+	font-size: 20px;
+	color: #aaa;
+}
+.wel a:hover{
+	color: #123999;
+}
+.ts{	
+	margin:100px auto;
+	text-align: center;
+	font-size: 18px;
+	color:#123456;
+	
+}
+.ts input{
+	outline: none;
+	border: 1px solid #111;
+	background: skyblue;
+	opacity: 0.5;
+}
+.change{
+	margin:100px auto;
+	font-size: 20px;
+	color: #dd9045;
+	}
+	.change input{
+		border: 1px solid #dd9011;
+		outline: none;
+		
+	}
+	.change a{
+		color: #5d3a3a;
+	}
+	.change a:hover{
+		color: #4f9da6;
+	}
+	.tes,.grad,.cls,.tea-l,.tea-m,.tea-r{
+		border-radius:50% ;
+		width:150px;
+		height: 150px;
+		background: #a9c6de;
+		text-align: center;
+		line-height:150px ;
+		margin-top:50px ;
+	}
+	a{
+		font-size: 20px;
+		color: #ccc;
+	}
+	.grad{
+		
+		background:#00bdaa;
+		}
+		.cls{
+			background: #6b8c42;
+			}
+	.tea-l{
+		background: #3bb4c1;
+	}
+	.tea-m{
+		background: #8186d5;
+	}
+	.tea-r{
+		background: #74b49b;
+	}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
